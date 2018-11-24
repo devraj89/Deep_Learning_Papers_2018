@@ -38,6 +38,22 @@ https://www.ijcai.org/proceedings/2018/0151.pdf
 [5] Semantic Structure-based Unsupervised Deep Hashing
 -------------------------------------------------------------------
 
+https://www.ijcai.org/proceedings/2018/0148.pdf
+
+-- Hashing is becoming increasingly popular for approximate nearest neighbor searching in massive databases due to its storage and search efficiency. Recent supervised hashing methods, which usually construct semantic similarity matrices to guide hash code learning using label information, have shown promising results. However, it is relativelydifficult to capture and utilize the semantic relationships between points in unsupervised settings. To address this problem, we propose a novel unsupervised deep framework called Semantic Structurebased unsupervised Deep Hashing (SSDH). We first empirically study the deep feature statistics, and find that the distribution of the cosine distance for point pairs can be estimated by two half Gaussian distributions. Based on this observation, we construct the semantic structure by considering points with distances obviously smaller than the others as semantically similar and points with distances obviously larger than the others as semantically dissimilar. We then design a deep architecture and a pair-wise loss function to preserve this semantic structure in Hamming space. Extensive experiments show that SSDH significantly outperforms current state-of-the-art methods.
+
+-- uses the pre-trained network which are already trained in supervised fashio .. so kind of like cheating 
+
+-- uses the statistics of the pre-trained network to determine semantic similarity and dis-similarity
+
+[6] Tri-net for Semi-Supervised Deep Learning
+----------------------------------------------
+
+https://www.ijcai.org/proceedings/2018/0278.pdf
+
+-- Deep neural networks have witnessed great successes in various real applications, but it requires a large number of labeled data for training. In this paper, we propose tri-net, a deep neural network which is able to use massive unlabeled data to help learning with limited labeled data. We consider model initialization, diversity augmentation and pseudo-label editing simultaneously. In our work, we utilize output smearing to initialize modules, use fine-tuning on labeled data to augment diversity and eliminate unstable pseudo-labels to alleviate the influence of suspicious pseudo-labeled data. Experiments show that our method achieves the best performance in comparison with state-ofthe-art semi-supervised deep learning methods. In particular, it achieves 8.30% error rate on CIFAR10 by using only 4000 labeled examples. 
+
+
 
 
 
