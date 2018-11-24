@@ -27,6 +27,13 @@ https://www.ijcai.org/proceedings/2018/0153.pdf
 
 -- uses attributes to generate images 
 
+[4] Extracting Privileged Information from Untagged Corpora for Classifier Learning
+
+https://www.ijcai.org/proceedings/2018/0151.pdf
+
+-- The performance of data-driven learning approaches is often unsatisfactory when the training data is inadequate either in quantity or quality. Manually labeled privileged information (PI), e.g., attributes, tags or properties, is usually incorporated to improve classifier learning. However, the process of manually labeling is time-consuming and labor-intensive. To address this issue, we propose to enhance classifier learning by extracting PI from untagged corpora, which can effectively eliminate the dependency on manually labeled data. In detail, we treat each selected PI as a subcategory and learn one classifier for per subcategory independently. The classifiers for all subcategories are then integrated together to form a more powerful category classifier. Particularly, we propose a new instance-level multi-instance learning (MIL) model to simultaneously select a subset of training images from each subcategory and learn the optimal classifiers based on the selected images. Extensive experiments demonstrate the superiority of our approach.
+
+[5] Semantic Structure-based Unsupervised Deep Hashing
 
 
 
