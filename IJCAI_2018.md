@@ -66,3 +66,32 @@ https://www.ijcai.org/proceedings/2018/0354.pdf
 -- Learning the disentangled representation of interpretable generative factors of data is one of the foundations to allow artificial intelligence to think like people. In this paper, we propose the analogical training strategy for the unsupervised disentangled representation learning in generative models. The analogy is one of the typical cognitive processes, and our proposed strategy is based on the observationthat sample pairs in which one is different from the other in one specific generative factor show the same analogical relation. Thus, the generator is trained to generate sample pairs from which a designed classifier can identify the underlying analogical relation. In addition, we propose a disentanglement metric called the subspace score, which is inspired by subspace learning methods and does not require supervised information. Experiments show that our proposed training strategy allows the generative models to find the disentangled factors, and that our methods can give competitive performances as compared with the state-of-the-art methods.
 
 
+[9] Adversarially Regularized Graph Autoencoder (ARGA)
+------------------------------------------------------------
+
+https://github.com/Ruiqi-Hu/ARGA
+
+-- Graph embedding is an effective method to represent graph data in a low dimensional space for graph analytics. Most existing embedding algorithms typically focus on preserving the topological structure or minimizing the reconstruction errors of graph data, but they have mostly ignored the data distribution of the latent codes from the graphs, which often results in inferior embedding in realworld graph data. In this paper, we propose a novel adversarial graph embedding framework for graph data. The framework encodes the topological structure and node content in a graph to a compact representation, on which a decoder is trained to reconstruct the graph structure. Furthermore, the latent representation is enforced to match a prior distribution via an adversarial training scheme. To learn a robust embedding, two variants of adversarial approaches, adversarially regularized graph autoencoder (ARGA) and adversarially regularized variational graph autoencoder (ARVGA), are developed. Experimental studies on real-world graphs validate our design and demonstrate that our algorithms outperform baselines by a wide margin in link prediction, graph clustering, and graph visualization tasks. 
+
+
+[10] Recommendation with Multi-Source Heterogeneous Information
+------------------------------------------------------------------
+
+https://www.ijcai.org/proceedings/2018/0469.pdf
+
+-- Network embedding has been recently used in social network recommendations by embedding lowdimensional representations of network items for recommendation. However, existing item recommendation models in social networks suffer from two limitations. First, these models partially use item information and mostly ignore important contextual information in social networks such as textual content and social tag information. Second, network embedding and item recommendations are learned in two independent steps without any interaction. To this end, we in this paper consideritem recommendations based on heterogeneous information sources. Specifically, we combine item structure, textual content and tag information for recommendation. To model the multi-source heterogeneous information, we use two coupled neural networks to capture the deep network representations of items, based on which a new recommendation model Collaborative multi-source Deep Network Embedding (CDNE for short) is proposed to learn different latent representations. Experimental results on two real-world data sets demonstrate that CDNE can use network representation learning to boost the recommendation performance. 
+
+[11] Aspect-Level Deep Collaborative Filtering via Heterogeneous Information Networks
+------------------------------------------------------------------------------------------------------------------
+
+https://www.ijcai.org/proceedings/2018/0471.pdf
+
+-- Latent factor models have been widely used for recommendation. Most existing latent factor models  mainly utilize the rating information between users and items, although some recently extended modelsadd some auxiliary information to learn a unified latent factor between users and items. The unified latent factor only represents the latent features of users and items from the aspect of purchase history. However, the latent features of users and items may stem from different aspects, e.g., the brandaspect and category-aspect of items. In this paper, we propose a Neural network based Aspect-level Collaborative Filtering model (NeuACF) to exploit different aspect latent factors. Through modelling rich objects and relations in recommender system as a heterogeneous information network, NeuACF first extracts different aspect-level similarity matrices of users and items through different meta-paths and then feeds an elaborately designed deep neural network with these matrices to learn aspect-level latent factors. Finally, the aspect-level latent factors are effectively fused with an attention mechanism for the top-N recommendation. Extensive experiments on three real datasets show that NeuACF significantly outperforms both existing latent factor models and recent neural network models
+
+
+
+
+
+
+
+
