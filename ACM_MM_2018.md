@@ -46,6 +46,14 @@ As attribute leaning brings mid-level semantic properties for objects, it can be
 
 -- can the inverse of curriculum learning be used for novelty detection work ? basically the network will learn which examples to not look into because they look pretty similar to the ones already trained ones ? can that be used to define most similar and not-similar examples ?
 
+[6] Dissimilarity Representation Learning for Generalized Zero-Shot Re cognition
+-------------------------------------------------------------------------------------------------
+
+-- Generalize d zero-shot learning (GZSL) aims to re cognize any test instance coming either from a known class or from a novel class  that has no training instance. To synthesize training instances for novel classes and thus resolving GZSL as a common classifiation problem, we prop ose a Dissimilarity Representation Learning (DSS) metho d. Dissimilarity representation is to represent a sp ecifi instance in terms of its (dis)similarity to other instances in a visual or attribute base d feature space. In the dissimilarity space, instances of the novel classes are synthesize d by an end-to-end optimize d neural network. The neural network realizes two-level feature mappings and domain adaptions in the dissimilarity space and the attribute base d feature space. Exp erimental results on fieb enchmark datasets, i.e., AWA, AWA2, SUN, CUB, and aPY, show that the proposed method improves the state-of-the-art with a large margin, approximately 10% gain in terms of the harmonic mean of the top-1 accuracy. Consequently, this paper establishes a new baseline for GZSL
+
+-- a dissimilarity metric which basically is the distance of a data from each class attribute or mean vectors ... they have used this information to improve their results.
+
+-- paper is written in a bad way ... very undreadable
 
 
 
