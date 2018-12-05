@@ -66,6 +66,15 @@ As attribute leaning brings mid-level semantic properties for objects, it can be
 
 -- paper is quite promising 
 
+[8] Post Tuned Hashing: A New Approach to Indexing High-dimensional Data
+----------------------------------------------------------------------------
+
+-- Learning to hash has proven to be an effective solution for indexing high-dimensional data by projecting them to similarity-preserving binary codes. However, most existing methods end up the learning scheme with a binarization stage, i.e., binary quantization, which inevitably destroys the  neighborhood structure of original data. As a result, those methods still suffer from great similarity loss and result in unsatisfactory indexing performance. In this paper we propose a novel hashing model, namely Post Tuned Hashing (PTH),  which includes a new post-tuning stage to refine the binary  codes after binarization. The post-tuning seeks to rebuild the destroyed neighborhood structure, and hence significantly  improves the indexing performance. We cast the post-tuninginto a binary quadratic optimization framework and, despite its NP-hardness, give a practical algorithm to efficiently obtain a high-quality solution. Experimental results on five noted image benchmarks show that our PTH improves previous state-of-the-art methods by 13-58% in mean average precision 1
+
+-- a new exciting way to decrease the error of neighborhood preservation ... this is a post processing step which can be utilized with any baseline models
+
+-- shows significant improvements to the results
+
 
 
 
