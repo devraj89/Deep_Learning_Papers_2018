@@ -26,4 +26,35 @@ As attribute leaning brings mid-level semantic properties for objects, it can be
 
 -- this is a non-deep method which uses the concept of codebook and updates the codebook to take care of the new classes (another interpretation will be like have a dictionary of atoms with group sparsity where each group denotes some classes, and then add another group to take care of the new classes)
 
+[4] Pseudo Transfer with Marginalized Corrupted Attribute for Zero-shot Learning
+-------------------------------------------------------------------------------------------------
+
+-- Zero-shot learning (ZSL) aims to recognize unseen classes that are excluded from training classes. ZSL suffers from 1) Zero-shot bias  (Z-Bias) — model is biased towards seen classes because unseen data is inaccessible for training; 2) Zero-shot variance (Z-Variance)   — associating different images to same semantic embedding yields large associating error. To reduce Z-Bias, we propose a pseudo transfer mechanism, where we first synthesize the distribution of unseen data using semantic embeddings, then we minimize the mismatch between the seen distribution and the synthesized unseen distribution. To reduce Z-Variance, we implicitly corrupted  one semantic embedding multiple times to generate image-wise semantic vectors, with which our model learn robust classifers. Lastly, we integrate our Z-Bias and Z-variance reduction techniques with a linear ZSL model to show its usefulness. Our proposed model successfully overcomes the Z-bias and Z-variance problems. Extensive experiments on five benchmark datasets including ImageNet1Kdemonstrate that our model outperforms the state-of-the-art methods with fast training. 
+
+-- read about Z bias and Z variance 
+
+-- they are intentionally corrupting the attributes ? nice idea i think ... but how to corrupt it in such a way that it does not by mistake translate to another attribute of another class ... how can we guarantee that the corrupted attribute will not match with one of the unseen category attributes ?
+
+
+[5] Webly Supervised Joint Embedding for Cross-Modal Image-Text Retrieval
+-------------------------------------------------------------------------------------------------
+
+-- a two stage process where initially the embeddings are learned using the clean data and in the next stage they use webly supervised data (basically data collected from Web Flickr ... the data might be noisy)
+
+-- so they use a lower learning rate and also to pick suitable examples to learn from they use something called curriculum learning 
+... what is that ? refer to this paper ... https://ronan.collobert.com/pub/matos/2009_curriculum_icml.pdf bengio
+
+-- can the inverse of curriculum learning be used for novelty detection work ? basically the network will learn which examples to not look into because they look pretty similar to the ones already trained ones ? can that be used to define most similar and not-similar examples ?
+
+
+
+
+
+
+
+
+
+
+
+
 
