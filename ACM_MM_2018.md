@@ -55,8 +55,16 @@ As attribute leaning brings mid-level semantic properties for objects, it can be
 
 -- paper is written in a bad way ... very undreadable
 
+[7] Dense Auto-Encoder Hashing for Robust Cross-Modality Retrieval
+-------------------------------------------------------------------------------------------------
 
+-- Cross-modality retrieval has been widely studied, which aims to search images as response to text queries or vice versa. When faced with large-scale dataset, cross-modality hashing serves as  an efficient and effective solution, which learns binary codes to  approximate the cross-modality similarity in the Hamming space. Most recent cross-modality hashing schemes focus on learning the hash functions from data instances with fully modalities. However, how to learn robust binary codes when facing incomplete modality (i.e., with one modality missed or partially observed), is left unexploited,which however widely occurs in real-world applications. In this paper, we propose a novel cross-modality hashing, termed Dense Auto-encoder Hashing (DAH), which can explicitly imputethe missed modality and produce robust binary codes by leveraging the relatedness among different modalities. To that effect, we propose a novel Dense Auto-encoder Network (DAN) to imputethe missing modalities, which densely connects each layer to every other layer in a feed-forward fashion. For each layer, a noisy auto-encoder block is designed to calculate the residue between the current prediction and original data. Finally, a hash-layer is added to the end of DAN, which serves as a special binary encoder model to deal with the incomplete modality input. Quantitative experiments on three cross-modality visual search benchmarks have shown that the proposed DAH has superior performance over thestate-of-the-art approaches.  
 
+-- missing modality problem is also handled   
+
+-- they have used a autoencoder formulation is a residual fashion 
+
+-- paper is quite promising 
 
 
 
