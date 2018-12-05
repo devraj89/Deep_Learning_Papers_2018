@@ -1,3 +1,7 @@
+
+Paper list and downloadable links can be found here 
+----------------------------------------------------------------------------
+
 https://dblp.org/db/conf/mm/mm2018.html
 
 https://dl.acm.org/citation.cfm?id=3240508&picked=prox
@@ -12,4 +16,14 @@ Style synthesis attracts great interests recently, while few works focus on its 
 -------------------------------------------------------------------------------------------------
 
 As attribute leaning brings mid-level semantic properties for objects, it can benefit many traditional learning problems in multimedia  and computer vision communities. When facing the huge  number of attributes, it is extremely challenging to automatically  design a generalizable neural network for other attribute learning tasks. Even for a specific attribute domain, the exploration of the  neural network architecture is always optimized by a combination of heuristics and grid search, from which there is a large space of possible choices to be searched. In this paper, Generalizable Attribute Learning Model (GALM) is proposed to automatically design the neural networks for generalizable attribute learning. The main novelty of GALM is that it fully exploits the Multi-Task Learning and Reinforcement Learning to speed up the search procedure. With the help of parameter sharing, GALM is able to transfer the pre-searched architecture to different attribute domains. In experiments, we comprehensively evaluate GALM on 251 attributes from three domains: animals, objects, and scenes. Extensive experimental results demonstrate that GALM significantly outperforms the state-of-the-art attribute learning approaches and previous neural architecture search methods on two generalizable attribute learning scenarios.
+
+[3] Supervised Online Hashing via Hadamard Codebook Learning
+-------------------------------------------------------------------------------------------------
+
+-- "However, most existing hashing methods adopted oine batch learning, which is not suitable to handle incremental datasets with streaming data or new instances. In contrast, the robustness of the existing online hashing remains as an  open problem, while the embedding of supervised/semantic information hardly boosts the performance of the online hashing, mainly due to the defect of unknown category numbers in supervised learning."  
+
+-- an online hashing scheme where an new incoming class training data can be used to learn the new class projections without adversably affecting the old class projections 
+
+-- this is a non-deep method which uses the concept of codebook and updates the codebook to take care of the new classes (another interpretation will be like have a dictionary of atoms with group sparsity where each group denotes some classes, and then add another group to take care of the new classes)
+
 
