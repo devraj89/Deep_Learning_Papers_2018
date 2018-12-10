@@ -45,7 +45,14 @@ https://github.com/bhanML/Co-teaching
 
 -- might be useful for our own work
 
+[5] Masking: A New Perspective of Noisy Supervision
+------------------------------------------------------------------------------------------
 
+https://papers.nips.cc/paper/7825-masking-a-new-perspective-of-noisy-supervision.pdf
+
+-- an interesting idea so that we can ensure some structure in the weight matrix / channel layer
+
+-- how they determine the mask ? -- can we use word2vec between the categories to do that ?
 
 
 
