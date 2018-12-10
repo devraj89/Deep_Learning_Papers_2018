@@ -32,3 +32,36 @@ http://papers.nips.cc/paper/7471-generalized-zero-shot-learning-with-deep-calibr
 
 http://papers.nips.cc/paper/7967-out-of-distribution-detection-using-multiple-semantic-label-representations.pdf
 
+[4] Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels
+------------------------------------------------------------------------------------------
+
+http://papers.nips.cc/paper/8072-co-teaching-robust-training-of-deep-neural-networks-with-extremely-noisy-labels.pdf
+
+https://github.com/bhanML/Co-teaching
+
+-- an interesting paper to deal with noises in labels 
+
+-- basically two networks .. select in a mini-batch which label prediction losses are poorer and then cross-use them to update the parameters of the network
+
+-- might be useful for our own work
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
