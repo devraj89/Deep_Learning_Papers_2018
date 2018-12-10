@@ -54,6 +54,18 @@ https://papers.nips.cc/paper/7825-masking-a-new-perspective-of-noisy-supervision
 
 -- how they determine the mask ? -- can we use word2vec between the categories to do that ?
 
+[6] To Trust Or Not To Trust A Classifier
+------------------------------------------------------------------------------------------
+
+http://papers.nips.cc/paper/7798-to-trust-or-not-to-trust-a-classifier.pdf
+
+-- an interesting problem to check whether to trust or not trust the classifier 
+
+-- check the concept of trust score 
+
+-- code available here at :: https://github.com/google/TrustScore
+
+-- a metric to replace entropy?
 
 
 
