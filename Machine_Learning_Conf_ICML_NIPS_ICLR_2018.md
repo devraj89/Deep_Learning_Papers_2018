@@ -68,6 +68,12 @@ http://papers.nips.cc/paper/7798-to-trust-or-not-to-trust-a-classifier.pdf
 -- a metric to replace entropy?
 
 
+[7] ∆-encoder: an effective sample synthesis method for few-shot object recognition
+------------------------------------------------------------------------------------------
+
+http://papers.nips.cc/paper/7549-delta-encoder-an-effective-sample-synthesis-method-for-few-shot-object-recognition.pdf
+
+-- discussed by sivaram an exciting work in few shot learning that tries to mimic the variations in the given classes and uses the learned variations to augment the few shot example data
 
 
 
