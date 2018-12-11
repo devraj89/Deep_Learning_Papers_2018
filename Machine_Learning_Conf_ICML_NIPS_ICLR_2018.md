@@ -76,6 +76,14 @@ http://papers.nips.cc/paper/7549-delta-encoder-an-effective-sample-synthesis-met
 -- discussed by sivaram an exciting work in few shot learning that tries to mimic the variations in the given classes and uses the learned variations to augment the few shot example data
 
 
+[8] Maximum Entropy Fine-Grained Classification
+------------------------------------------------------------------------------------------
+
+http://papers.nips.cc/paper/7344-maximum-entropy-fine-grained-classification.pdf
+
+-- uses entropy to basically say that for fine grained classifications it is better that the network is not too confident 
+
+-- shown to be an effective fine-tuning mechanism with lot of improvements observed over the generic baseline results even on tough datasets such as CUB
 
 
 
