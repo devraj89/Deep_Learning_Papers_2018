@@ -85,7 +85,18 @@ http://papers.nips.cc/paper/7344-maximum-entropy-fine-grained-classification.pdf
 
 -- shown to be an effective fine-tuning mechanism with lot of improvements observed over the generic baseline results even on tough datasets such as CUB
 
+[9] Generalized Cross Entropy Loss for Training Deep Neural Networks with Noisy Labels
+------------------------------------------------------------------------------------------
 
+https://papers.nips.cc/paper/8094-generalized-cross-entropy-loss-for-training-deep-neural-networks-with-noisy-labels.pdf
+
+https://nips.cc/media/Slides/nips/2018/220e(06-15-30)-06-16-55-12761-Generalized_Cro.pdf
+
+-- discusses the concept of symmetric loss functions and why MAE is better than CCE for the noisy labeled samples (refers to sastry sir's AAAI 2018 paper)
+
+-- CCE converges fast but overfits to noise whereas MAE converges very very slow (often does not reach the performance of the CCE but is much more robust to the noisy labels) This is the reason why the authors tried to tread a middle ground here.
+
+-- defines a new loss function called box function and truncated function to deal with the above problems 
 
 
 
