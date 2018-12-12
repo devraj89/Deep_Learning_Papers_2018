@@ -23,8 +23,6 @@ https://github.com/pfnet-research/sngan_projection
 
 -- even Ian Goodfellow have said that this is a wonderful work (everybody should have a look at it ... people who are using the generative models)
 
-
-
 ICML 2018
 --------------
 
