@@ -113,6 +113,14 @@ https://github.com/mmazeika
 
 -- very good results but you do need the set of trusted labels
 
+[11] Dual Swap Disentangling
+------------------------------------------------------------------------------------------
+
+http://papers.nips.cc/paper/7830-dual-swap-disentangling.pdf
+
+-- a nice idea using autoencoders to disentangle representations
+
+
 
 
 
