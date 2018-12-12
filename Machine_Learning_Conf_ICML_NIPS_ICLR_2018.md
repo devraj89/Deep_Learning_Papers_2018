@@ -98,8 +98,20 @@ https://nips.cc/media/Slides/nips/2018/220e(06-15-30)-06-16-55-12761-Generalized
 
 -- defines a new loss function called box function and truncated function to deal with the above problems 
 
+[10] Using Trusted Data to Train Deep Networks on Labels Corrupted by Severe Noise
+------------------------------------------------------------------------------------------
 
+http://papers.nips.cc/paper/8246-using-trusted-data-to-train-deep-networks-on-labels-corrupted-by-severe-noise.pdf
 
+https://github.com/mmazeika
+
+-- a paper which uses a small set of gold standard (or basically cleaned data) to clean other sample labels under severe noise conditions
+
+-- this work uses a new property that given the noisy labels and the clean labels both are conditionally indepenedent of each other provided the original data ... or in other words the noisy label is not dependent on the clean label but rather on the data sample itself.
+
+-- from the paper "The conditional independence assumption is reasonable, as it is usually the case that noisy labeling processes do not have access to the true label." This actually makes a lot of sense.
+
+-- very good results but you do need the set of trusted labels
 
 
 
