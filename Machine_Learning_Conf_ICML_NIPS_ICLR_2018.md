@@ -120,6 +120,9 @@ http://papers.nips.cc/paper/7830-dual-swap-disentangling.pdf
 
 -- a nice idea using autoencoders to disentangle representations
 
+-- also used to incorporate both the labeled and unlabeled samples 
+
+-- the best idea is about the swapping of the latent factors
 
 
 
