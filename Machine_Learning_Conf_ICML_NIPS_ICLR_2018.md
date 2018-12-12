@@ -1,6 +1,30 @@
 ICLR 2018
 --------------
 
+[1] CGANS WITH PROJECTION DISCRIMINATOR
+------------------------------------------------------------------------------------------
+
+https://openreview.net/pdf?id=ByS1VpgRZ
+
+https://github.com/pfnet-research/sngan_projection
+
+-- this paper looks interesting and the code is provided 
+
+-- the first paper where the condition is added not at the front end of the algorithm but rather at the backend of the algorithm
+
+[2] SPECTRAL NORMALIZATION FOR GENERATIVE ADVERSARIAL NETWORKS
+------------------------------------------------------------------------------------------
+
+https://openreview.net/pdf?id=B1QRgziT-
+
+https://github.com/pfnet-research/sngan_projection
+
+-- this stabilises the GAN training
+
+-- even Ian Goodfellow have said that this is a wonderful work (everybody should have a look at it ... people who are using the generative models)
+
+
+
 ICML 2018
 --------------
 
