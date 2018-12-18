@@ -26,6 +26,17 @@ https://github.com/pfnet-research/sngan_projection
 ICML 2018
 --------------
 
+[1] Improved Training of Generative Adversarial Networks using Representative Features
+------------------------------------------------------------------------------------------
+
+https://arxiv.org/pdf/1801.09195.pdf
+
+-- a way to avoid mode collapse
+
+-- but the interesting thing is this how they are using the autoencoder to generate an extra feature to concatenate to that of the output of the discriminator to determine real/fake examples
+
+-- possible uses it for novelty detection ? suppose we can extend it to get conditions like attributes in the generator part ? for supritam's work it might be useful
+
 NIPS 2018
 --------------
 
