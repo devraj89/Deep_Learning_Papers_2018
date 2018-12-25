@@ -42,6 +42,8 @@ https://arxiv.org/pdf/1801.09195.pdf
 
 http://data.bit.uni-bonn.de/publications/ICML2018.pdf
 
+https://github.com/lukasruff/Deep-SVDD-PyTorch
+
 -- a nice paper for novelty detection or anamoly detection
 
 -- basically construct a hyperspehere of radius R such that most points fall inside it ... so whatever falls outside will be an outlier
@@ -49,6 +51,7 @@ http://data.bit.uni-bonn.de/publications/ICML2018.pdf
 -- can this be used to learn a better classifier ... will this be useful for example if we could do per class ... like c1,r1 ; c2,r2; ... etc and then force each class sample to be within each center of that particular class within a particular margin (the margin being the radius r1, r2, ... )
 
 -- may be useful for supritam's work or even Ayyappa's work
+
 
 NIPS 2018
 --------------
