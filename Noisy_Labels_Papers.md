@@ -28,4 +28,17 @@ I am specfically looking into papers that satisfies the following criterion !
  - paper: https://papers.nips.cc/paper/6697-decoupling-when-to-update-from-how-to-update.pdf
  - code: https://github.com/emalach/UpdateByDisagreement
  
+ [3] Co-teaching: Robust Training of Deep NeuralNetworks with Extremely Noisy Labels
+ ----------------------------------------------------------------------------- 
+ - less memorization on noisy labels 
+ - memorization effectsof deepneural networks show that they would first memorize training data of clean labelsand then those of noisy labels.
+ - we train two deep neural networks simultaneously, and let themteach each othergiven every mini-batch:
+ - firstly, each network feeds forward all data and selectssome data of possibly clean labels;
+ - secondly, two networks communicate with eachother what data in this mini-batch should be used for training;
+ - finally, each networkback propagates the data selected by its peer network and updates itself.
+ - check algorithm 
+ - paper: https://papers.nips.cc/paper/8072-co-teaching-robust-training-of-deep-neural-networks-with-extremely-noisy-labels.pdf
+ - code: https://github.com/bhanML/Co-teaching in PyTorch
+ 
+ 
  
