@@ -28,7 +28,7 @@ I am specfically looking into papers that satisfies the following criterion !
  - paper: https://papers.nips.cc/paper/6697-decoupling-when-to-update-from-how-to-update.pdf
  - code: https://github.com/emalach/UpdateByDisagreement
  
- [3] Co-teaching: Robust Training of Deep NeuralNetworks with Extremely Noisy Labels
+ [3] Co-teaching: Robust Training of Deep NeuralNetworks with Extremely Noisy Labels NIPS 2018
  ----------------------------------------------------------------------------- 
  - less memorization on noisy labels 
  - memorization effectsof deepneural networks show that they would first memorize training data of clean labelsand then those of noisy labels.
@@ -41,4 +41,5 @@ I am specfically looking into papers that satisfies the following criterion !
  - code: https://github.com/bhanML/Co-teaching in PyTorch
  
  
- 
+  [4] Iterative Learning with Open-set Noisy Labels CVPR 2018
+ ----------------------------------------------------------------------------- 
