@@ -23,7 +23,7 @@ I am specfically looking into papers that satisfies the following criterion !
  - "On the other hand, in the presence of noisy labels, as the classifier improves the effect of the noise increases - the classifier may give correct predictions, but will still have to update due to wrong labeling."
  - "Thus, in an advanced stage of the training process the majority of the updates may actually be due to wrongly labeled examples, and therefore will not allow the classifier to further improve."
  - <when to update> <--> <how to update>  DONT DEPEND ON THE LABELS DURING CONVERGENCE
- - train two networks and update only when disagreements occur between them (the two networks can be trained initially like normal)
+ - train two networks and update only when disagreements occur between them (the two networks can be trained initially like normal but possibly on a different subsets of the training data)
  - INTUITION: during network convergence if both the networks are predicting some labels and IT DOES NOT MATCH WITH THE TARGET LABEL, the target label is possibly wrong 
  - paper: https://papers.nips.cc/paper/6697-decoupling-when-to-update-from-how-to-update.pdf
  - code: https://github.com/emalach/UpdateByDisagreement
