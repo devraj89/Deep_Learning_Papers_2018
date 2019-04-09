@@ -41,5 +41,12 @@ I am specfically looking into papers that satisfies the following criterion !
  - code: https://github.com/bhanML/Co-teaching in PyTorch
  
  
-  [4] Iterative Learning with Open-set Noisy Labels CVPR 2018
+[4] Iterative Learning with Open-set Noisy Labels CVPR 2018
  ----------------------------------------------------------------------------- 
+ - noisy and clean sample detector using LOF see what clean "cat" and clean "jasmine" means
+ - first work on outlier data being labeled as one of the in-distribution samples 
+ - generate matched and non-matched pairs from clean and noisy data (from LOF) and feed it into the siamese networks for training it 
+ - network trained with contrastive loss and weighted softmax loss
+ - weights are 1-LOF score 
+ - paper: https://arxiv.org/pdf/1804.00092.pdf
+ - code: https://github.com/YisenWang/Iterative_learning 
