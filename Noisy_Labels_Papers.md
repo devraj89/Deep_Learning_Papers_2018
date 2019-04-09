@@ -41,7 +41,7 @@ I am specfically looking into papers that satisfies the following criterion !
  - code: https://github.com/bhanML/Co-teaching in PyTorch
  
  
-[4] Iterative Learning with Open-set Noisy Labels CVPR 2018
+ [4] Iterative Learning with Open-set Noisy Labels CVPR 2018
  ----------------------------------------------------------------------------- 
  - noisy and clean sample detector using LOF see what clean "cat" and clean "jasmine" means
  - first work on outlier data being labeled as one of the in-distribution samples 
@@ -50,3 +50,15 @@ I am specfically looking into papers that satisfies the following criterion !
  - weights are 1-LOF score 
  - paper: https://arxiv.org/pdf/1804.00092.pdf
  - code: https://github.com/YisenWang/Iterative_learning 
+
+
+[5] Mixup: Beyond Empirical Risk Minimization ICLR 2018
+----------------------------------------------------------------------------- 
+- a fascinating paaper which can deal with noisy
+- very easy to implement in PYTORCH code made available
+- works upto 80% label noise
+- paper: https://arxiv.org/pdf/1710.09412.pdf
+- code: https://github.com/facebookresearch/mixup-cifar10
+
+
+
